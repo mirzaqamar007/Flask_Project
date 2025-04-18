@@ -1,0 +1,12 @@
+Requirements:
+
+1- Project --> RWT,SKP,SCRUM --> combo box
+2- Issue type --> Request, Issue, Task, Story --> In Combo Box
+3- Reporter name --> text box
+4- Summary --> Text Box
+5- Description --> Text area
+6- Priority
+7- Create Button --> Submit
+
+We have to make an HTML Page, according to the above requirements to create a JIRA Tickets.
+

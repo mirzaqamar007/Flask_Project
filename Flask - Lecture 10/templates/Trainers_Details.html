@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trainers Details</title>
+</head>
+<body>
+
+    <h1>Trainers Details</h1>
+
+    <form method="post" action="{{ url_for('Trainers_create')}}" name="trainers_form">
+        <table>
+            <tbody>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="fname" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lname" required></td>
+                </tr>
+                <tr>
+                    <td>Designation</td>
+                    <td><input type="text" name="design" required></td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td><input type="text" name="course" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</body>
+</html>
